@@ -1,13 +1,24 @@
-primeiro_valor = input('Digite um valor: ')
-segundo_valor = input('Digite outro valor: ')
+# if / elif      / else
+# se / se não se / se não
 
-if primeiro_valor >= segundo_valor:
-    print(
-        f'{primeiro_valor=} é maior ou igual '
-        f'ao que {segundo_valor=}'
-    )
+condicao1 = False
+condicao2 = False
+condicao3 = True
+condicao4 = True
+
+if condicao1:
+    print('Código para condição 1')
+    print('Código para condição 1')
+elif condicao2:
+    print('Código para condição 2')
+elif condicao3:
+    print('Código para condição 3')
+elif condicao4:
+    print('Código para condição 4')
 else:
-    print(
-        f'{segundo_valor=} é maior '
-        f'do que {primeiro_valor=}'
-    )
+    print('Nenhuma condição foi satisfeita.')
+
+if 10 == 10:
+    print('Outro if')
+
+print('Fora do if')
